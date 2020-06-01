@@ -61,7 +61,7 @@ rose_map = [
 
 rose = SimpleMapPhenotype(rose_map)
 
-tulip = [
+tulip_map = [
     Colour.WHITE, Colour.WHITE, Colour.WHITE,
     Colour.YELLOW, Colour.YELLOW, Colour.WHITE,
     Colour.YELLOW, Colour.YELLOW, Colour.YELLOW,
@@ -73,7 +73,9 @@ tulip = [
     Colour.PURPLE, Colour.PURPLE, Colour.PURPLE
 ]
 
-pansy = [
+tulip = SimpleMapPhenotype(tulip_map)
+
+pansy_map = [
     Colour.WHITE, Colour.WHITE, Colour.BLUE,
     Colour.YELLOW, Colour.YELLOW, Colour.BLUE,
     Colour.YELLOW, Colour.YELLOW, Colour.YELLOW,
@@ -84,3 +86,33 @@ pansy = [
     Colour.RED, Colour.RED, Colour.PURPLE,
     Colour.ORANGE, Colour.ORANGE, Colour.PURPLE
 ]
+
+pansy = SimpleMapPhenotype(pansy_map)
+
+cosmo_map = [
+    Colour.WHITE, Colour.WHITE, Colour.WHITE,
+    Colour.YELLOW, Colour.YELLOW, Colour.WHITE,
+    Colour.YELLOW, Colour.YELLOW, Colour.YELLOW,
+    Colour.PINK, Colour.PINK, Colour.PINK,
+    Colour.ORANGE, Colour.ORANGE, Colour.PINK,
+    Colour.ORANGE, Colour.ORANGE, Colour.ORANGE,
+    Colour.RED, Colour.RED, Colour.RED,
+    Colour.ORANGE, Colour.ORANGE, Colour.RED,
+    Colour.BLACK, Colour.BLACK, Colour.RED
+]
+
+cosmo = SimpleMapPhenotype(cosmo_map)
+
+mum_map = [
+    Colour.WHITE, Colour.WHITE, Colour.PURPLE,
+    Colour.YELLOW, Colour.YELLOW, Colour.WHITE,
+    Colour.YELLOW, Colour.YELLOW, Colour.YELLOW,
+    Colour.PINK, Colour.PINK, Colour.PINK,
+    Colour.YELLOW, Colour.RED, Colour.PINK,
+    Colour.PURPLE, Colour.PURPLE, Colour.PURPLE,
+    Colour.RED, Colour.RED, Colour.RED,
+    Colour.PURPLE, Colour.PURPLE, Colour.RED,
+    Colour.GREEN, Colour.GREEN, Colour.RED
+]
+
+mum = SimpleMapPhenotype(mum_map)

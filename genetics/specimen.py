@@ -15,9 +15,8 @@ class Specimen:
         self.phenotype = species.phenotype_of(genome)
 
     def __str__(self):
-        return "{species} {genome} {phenotype}".format(species=self.species,
-                                                       genome=self.genome,
-                                                       phenotype=self.phenotype)
+        return "{phenotype} {ordinal}".format(phenotype=self.phenotype,
+                                              ordinal=self.genome.ordinal)
 
     def cross(self, other: Specimen):
         if not self.species == other.species:

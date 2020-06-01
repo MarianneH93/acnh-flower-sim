@@ -13,6 +13,8 @@ class GeneCrossResults:
     def __init__(self, parents: Sequence[genetics.genesequence.SimpleGeneSequence]):
         if len(parents) < 2:
             parents = parents + parents
+        if len(parents) > 2:
+            raise NotImplementedError
 
         self.parents: Sequence[genetics.genesequence.SimpleGeneSequence] = list(parents)
         self.contents: Counter[genetics.genesequence.SimpleGeneSequence] = Counter()
@@ -46,7 +48,7 @@ class GeneCrossResults:
         for i in range(len(self.parents)):
             parents.append(self.parents[i] + other.parents[i])
 
-        results = GeneCrossResults(self.parents)
+        results = GeneCrossResults(parents)
 
         for sequence1 in self.contents:
             for sequence2 in other.contents:
