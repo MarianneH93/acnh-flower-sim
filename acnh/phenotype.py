@@ -103,6 +103,48 @@ cosmo_map = [
 
 cosmo = SimpleMapPhenotype(cosmo_map)
 
+lily_map = [
+    Colour.WHITE, Colour.WHITE, Colour.WHITE,
+    Colour.YELLOW, Colour.WHITE, Colour.WHITE,
+    Colour.YELLOW, Colour.YELLOW, Colour.WHITE,
+    Colour.RED, Colour.PINK, Colour.WHITE,
+    Colour.ORANGE, Colour.YELLOW, Colour.YELLOW,
+    Colour.ORANGE, Colour.YELLOW, Colour.YELLOW,
+    Colour.BLACK, Colour.RED, Colour.PINK,
+    Colour.BLACK, Colour.RED, Colour.PINK,
+    Colour.ORANGE, Colour.ORANGE, Colour.WHITE
+]
+
+lily = SimpleMapPhenotype(lily_map)
+
+hyacinth_map = [
+    Colour.WHITE, Colour.WHITE, Colour.BLUE,
+    Colour.YELLOW, Colour.YELLOW, Colour.WHITE,
+    Colour.YELLOW, Colour.YELLOW, Colour.YELLOW,
+    Colour.RED, Colour.PINK, Colour.WHITE,
+    Colour.ORANGE, Colour.YELLOW, Colour.YELLOW,
+    Colour.ORANGE, Colour.YELLOW, Colour.YELLOW,
+    Colour.RED, Colour.RED, Colour.RED,
+    Colour.BLUE, Colour.BLUE, Colour.RED,
+    Colour.PURPLE, Colour.PURPLE, Colour.PURPLE
+]
+
+hyacinth = SimpleMapPhenotype(hyacinth_map)
+
+windflower_map = [
+    Colour.WHITE, Colour.WHITE, Colour.BLUE,
+    Colour.ORANGE, Colour.ORANGE, Colour.BLUE,
+    Colour.ORANGE, Colour.ORANGE, Colour.ORANGE,
+    Colour.RED, Colour.RED, Colour.BLUE,
+    Colour.PINK, Colour.PINK, Colour.PINK,
+    Colour.ORANGE, Colour.ORANGE, Colour.ORANGE,
+    Colour.RED, Colour.RED, Colour.PURPLE,
+    Colour.RED, Colour.RED, Colour.PURPLE,
+    Colour.PINK, Colour.PINK, Colour.PURPLE
+]
+
+windflower = SimpleMapPhenotype(windflower_map)
+
 mum_map = [
     Colour.WHITE, Colour.WHITE, Colour.PURPLE,
     Colour.YELLOW, Colour.YELLOW, Colour.WHITE,
